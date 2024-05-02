@@ -1,0 +1,6 @@
+framework module MKNetworkManager {
+  umbrella header "MKNetworkManager.h"
+  export *
+
+  module * { export * }
+}

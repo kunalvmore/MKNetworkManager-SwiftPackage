@@ -1,0 +1,26 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-module-flags: -target arm64-apple-ios17.4 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name MKNetworkManager
+import Foundation
+@_exported import MKNetworkManager
+import Swift
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public enum NetworkError : Swift.Error {
+  case invalidURL
+  case noData
+  case decodingError
+  public static func == (a: MKNetworkManager.NetworkError, b: MKNetworkManager.NetworkError) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public class NetworkManager<T> where T : Swift.Decodable, T : Swift.Encodable {
+  public init()
+  public func fetchData(from urlString: Swift.String, completion: @escaping (Swift.Result<T, MKNetworkManager.NetworkError>) -> Swift.Void)
+  @objc deinit
+}
+extension MKNetworkManager.NetworkError : Swift.Equatable {}
+extension MKNetworkManager.NetworkError : Swift.Hashable {}

@@ -1,0 +1,377 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MKNetworkManager",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NetworkError",
+        "printedName": "NetworkError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "invalidURL",
+            "printedName": "invalidURL",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MKNetworkManager.NetworkError.Type) -> MKNetworkManager.NetworkError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NetworkError",
+                    "printedName": "MKNetworkManager.NetworkError",
+                    "usr": "s:16MKNetworkManager12NetworkErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MKNetworkManager.NetworkError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NetworkError",
+                        "printedName": "MKNetworkManager.NetworkError",
+                        "usr": "s:16MKNetworkManager12NetworkErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16MKNetworkManager12NetworkErrorO10invalidURLyA2CmF",
+            "mangledName": "$s16MKNetworkManager12NetworkErrorO10invalidURLyA2CmF",
+            "moduleName": "MKNetworkManager"
+          },
+          {
+            "kind": "Var",
+            "name": "noData",
+            "printedName": "noData",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MKNetworkManager.NetworkError.Type) -> MKNetworkManager.NetworkError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NetworkError",
+                    "printedName": "MKNetworkManager.NetworkError",
+                    "usr": "s:16MKNetworkManager12NetworkErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MKNetworkManager.NetworkError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NetworkError",
+                        "printedName": "MKNetworkManager.NetworkError",
+                        "usr": "s:16MKNetworkManager12NetworkErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16MKNetworkManager12NetworkErrorO6noDatayA2CmF",
+            "mangledName": "$s16MKNetworkManager12NetworkErrorO6noDatayA2CmF",
+            "moduleName": "MKNetworkManager"
+          },
+          {
+            "kind": "Var",
+            "name": "decodingError",
+            "printedName": "decodingError",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MKNetworkManager.NetworkError.Type) -> MKNetworkManager.NetworkError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NetworkError",
+                    "printedName": "MKNetworkManager.NetworkError",
+                    "usr": "s:16MKNetworkManager12NetworkErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MKNetworkManager.NetworkError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NetworkError",
+                        "printedName": "MKNetworkManager.NetworkError",
+                        "usr": "s:16MKNetworkManager12NetworkErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16MKNetworkManager12NetworkErrorO08decodingD0yA2CmF",
+            "mangledName": "$s16MKNetworkManager12NetworkErrorO08decodingD0yA2CmF",
+            "moduleName": "MKNetworkManager"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NetworkError",
+                "printedName": "MKNetworkManager.NetworkError",
+                "usr": "s:16MKNetworkManager12NetworkErrorO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NetworkError",
+                "printedName": "MKNetworkManager.NetworkError",
+                "usr": "s:16MKNetworkManager12NetworkErrorO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16MKNetworkManager12NetworkErrorO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s16MKNetworkManager12NetworkErrorO2eeoiySbAC_ACtFZ",
+            "moduleName": "MKNetworkManager",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16MKNetworkManager12NetworkErrorO9hashValueSivp",
+            "mangledName": "$s16MKNetworkManager12NetworkErrorO9hashValueSivp",
+            "moduleName": "MKNetworkManager",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16MKNetworkManager12NetworkErrorO9hashValueSivg",
+                "mangledName": "$s16MKNetworkManager12NetworkErrorO9hashValueSivg",
+                "moduleName": "MKNetworkManager",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16MKNetworkManager12NetworkErrorO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s16MKNetworkManager12NetworkErrorO4hash4intoys6HasherVz_tF",
+            "moduleName": "MKNetworkManager",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:16MKNetworkManager12NetworkErrorO",
+        "mangledName": "$s16MKNetworkManager12NetworkErrorO",
+        "moduleName": "MKNetworkManager",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NetworkManager",
+        "printedName": "NetworkManager",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NetworkManager",
+                "printedName": "MKNetworkManager.NetworkManager<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:16MKNetworkManager07NetworkB0C"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:16MKNetworkManager07NetworkB0CACyxGycfc",
+            "mangledName": "$s16MKNetworkManager07NetworkB0CACyxGycfc",
+            "moduleName": "MKNetworkManager",
+            "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable, τ_0_0 : Swift.Encodable>",
+            "sugared_genericSig": "<T where T : Swift.Decodable, T : Swift.Encodable>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "fetchData",
+            "printedName": "fetchData(from:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<τ_0_0, MKNetworkManager.NetworkError>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<τ_0_0, MKNetworkManager.NetworkError>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NetworkError",
+                        "printedName": "MKNetworkManager.NetworkError",
+                        "usr": "s:16MKNetworkManager12NetworkErrorO"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16MKNetworkManager07NetworkB0C9fetchData4from10completionySS_ys6ResultOyxAA0C5ErrorOGctF",
+            "mangledName": "$s16MKNetworkManager07NetworkB0C9fetchData4from10completionySS_ys6ResultOyxAA0C5ErrorOGctF",
+            "moduleName": "MKNetworkManager",
+            "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable, τ_0_0 : Swift.Encodable>",
+            "sugared_genericSig": "<T where T : Swift.Decodable, T : Swift.Encodable>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:16MKNetworkManager07NetworkB0C",
+        "mangledName": "$s16MKNetworkManager07NetworkB0C",
+        "moduleName": "MKNetworkManager",
+        "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable, τ_0_0 : Swift.Encodable>",
+        "sugared_genericSig": "<T where T : Swift.Decodable, T : Swift.Encodable>",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}
